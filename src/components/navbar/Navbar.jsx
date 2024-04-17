@@ -26,11 +26,12 @@ const Menu = () => (
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const scrollTop = () => window['scrollTo']({ top: 0, behavior: 'smooth'});
 
   return (
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
-        <div className="gpt3__navbar-links_logo">
+        <div className="gpt3__navbar-links_logo" onClick={scrollTop}>
           <img src={logo} alt="logo" />
         </div>
         <div className="gpt3__navbar-links_container">
