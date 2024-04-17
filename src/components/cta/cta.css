@@ -5,7 +5,8 @@
   align-items: center;
   border-radius: 1rem;
   padding: 2rem;
-  margin: 4rem;
+  margin: 2rem;
+  margin-bottom: -90px;
   background: var(--gradient-bar);
 }
 .gpt3__cta-content p {

@@ -17,6 +17,9 @@ a {
 .gradient__bg {
   /* ff 3.6+ */
   background-image: url('../src/assets/bg_agua_v3.png');
+  background-position: bottom;
+  width: 100%;
+  overflow: hidden;
   background-repeat: no-repeat;
 }
 
@@ -69,6 +72,10 @@ a {
   .section__margin {
     margin: 4rem;
   }
+  .gradient__bg {
+    /* ff 3.6+ */
+    background-position: top;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -77,5 +84,9 @@ a {
   }
   .section__margin {
     margin: 4rem 2rem;
+  }
+  .gradient__bg {
+    /* ff 3.6+ */
+    background-position: top;
   }
 }
