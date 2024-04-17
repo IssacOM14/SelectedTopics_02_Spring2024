@@ -19,11 +19,10 @@ const App = () => {
       <div className="gradient__bg">
         <Header />
       </div>
-      <Brand />
-      <Features />
-      <Possibility />
       <Cta />
       <Blog />
+      <Features />
+      <Possibility />
       <Footer />
     </div>
   );
