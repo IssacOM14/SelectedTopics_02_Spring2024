@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div className="gpt3__header section__padding">
       <div className="gpt3__header-content">
-        <h1 className="gradient__text">
+        <h1 className="gradient__text-head">
           Purificadora Valle Del Volcan
         </h1>
         <p style={{fontSize:'20px', color:'white', fontWeight:"700"}}>

@@ -8,7 +8,7 @@ const Blog = () => {
     <div className="gpt3__blog section__padding" id="blog">
       <div className="gpt3__blog-heading">
         <h1 className="gradient__text">
-          Get to know our catalog. 
+          Get to know our catalog:
         </h1>
       </div>
       <div className="gpt3__blog-container">
