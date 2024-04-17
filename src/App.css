@@ -29,6 +29,12 @@ a {
   -webkit-background-clop: text;
   -webkit-text-fill-color: transparent;
 }
+.gradient__text-head {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clop: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .section__padding {
   padding: 4rem 6rem;
@@ -76,6 +82,13 @@ a {
     /* ff 3.6+ */
     background-position: top;
   }
+  .gradient__text-head {
+    background: var(--gradient-text-head);
+    background-clip: text;
+    -webkit-background-clop: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -88,5 +101,12 @@ a {
   .gradient__bg {
     /* ff 3.6+ */
     background-position: top;
+  }
+  .gradient__text-head {
+    background: var(--gradient-text-head);
+    background-clip: text;
+    -webkit-background-clop: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
   }
 }
