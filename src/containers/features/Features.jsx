@@ -4,7 +4,7 @@ import "./features.css";
 
 const featuresData = [
   {
-    title: "Improving end distrusts instantly",
+    title: "Test 02",
     text: "From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.",
   },
   {
@@ -27,8 +27,7 @@ const Features = () => {
       <div className="gpt3__features section__padding">
       <div className="gpt3__features-heading">
         <h1 className="gradient__text">
-          The Future is Now and You Just Need To Realize It. Step into Future
-          Today & Make it Happen.
+          Learn about our purification process used to offer the best quality at the best price.
         </h1>
         <p>Request Early Access to Get Started</p>
       </div>

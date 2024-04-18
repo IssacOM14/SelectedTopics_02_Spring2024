@@ -16,30 +16,21 @@ const Blog = () => {
           <Article
             imageUrl={blog01}
             date="Sep 26, 2021"
-            title="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+            title="20, 19 or 11 Liter water carafes"
           />
         </div>
         <div className="gpt3__blog-container_groupB">
           <Article
             imageUrl={blog02}
             date="Sep 26, 2021"
-            title="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+            title="Boston Bottles"
           />
           <Article
             imageUrl={blog03}
             date="Sep 26, 2021"
-            title="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+            title="Ring Bottles"
           />
-          <Article
-            imageUrl={blog04}
-            date="Sep 26, 2021"
-            title="GPT-3 and Open  AI is the future. Let us exlore how it is?"
-          />
-          <Article
-            imageUrl={blog05}
-            date="Sep 26, 2021"
-            title="GPT-3 and Open  AI is the future. Let us exlore how it is?"
-          />
+          
         </div>
       </div>
     </div>
