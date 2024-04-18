@@ -24,13 +24,23 @@ const Blog = () => {
             imageUrl={blog02}
             date="Sep 26, 2021"
             title="Boston Bottles"
+            
           />
           <Article
             imageUrl={blog03}
             date="Sep 26, 2021"
             title="Ring Bottles"
           />
-          
+          <Article
+            imageUrl={blog03}
+            date="Sep 26, 2021"
+            title="Ring Bottles"
+          />
+          <Article
+            imageUrl={blog03}
+            date="Sep 26, 2021"
+            title="Ring Bottles"
+          />
         </div>
       </div>
     </div>
