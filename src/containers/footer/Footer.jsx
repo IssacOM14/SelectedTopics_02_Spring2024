@@ -1,28 +1,32 @@
 import React from "react";
 import "./footer.css";
 import gpt3Logo from "../../assets/logo.svg";
+import logoValle from "../../assets/logo mejorado.png";
+import FacebookIcon from '@mui/icons-material/Facebook';
+import XIcon from '@mui/icons-material/X';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 const Footer = () => {
   return (
     <div className="gpt3__footer section__padding">
       <div className="gpt3__footer-heading">
         <h1 className="gradient__text">
-          Do you want to step in to the future before others
+          Do you have any questions about our products?
         </h1>
       </div>
       <div className="gpt3__footer-btn">
-        <p>Request Early Access</p>
+        <p>Contact Our Customer Service</p>
       </div>
       <div className="gpt3__footer-links">
         <div className="gpt3__footer-links_logo">
-          <img src={gpt3Logo} alt="logo" />
-          <p>Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved</p>
+          <img src={logoValle} alt="logo" />
+          <p>Purificadora Valle Del Volcan, All Rights Reserved</p>
         </div>
         <div className="gpt3__footer-links_div">
           <h4>Links</h4>
-          <p>Overons</p>
+          <p>Shop</p>
           <p>Social Media</p>
-          <p>Counters</p>
+          <p>About Us</p>
           <p>Contact</p>
         </div>
         <div className="gpt3__footer-links_div">
@@ -33,13 +37,20 @@ const Footer = () => {
         </div>
         <div className="gpt3__footer-links_div">
           <h4>Get in touch</h4>
-          <p>Crechterwoord K12 182 DK Alknjkcb</p>
-          <p>085-132567</p>
-          <p>info@payme.net</p>
+          <p>Cam. Real a San Andrés 1230, X72810 San Andrés Cholula, Pue.</p>
+          <p>(221) 530-4660</p>
+          <p>support@vallevolcan.mx</p>
+          <ul class= "icon">
+          <p><FacebookIcon></FacebookIcon> </p>
+          <p><InstagramIcon></InstagramIcon> </p>
+          <p><XIcon></XIcon> </p>
+          </ul>
+          
+
         </div>
       </div>
       <div className="gpt3__footer-copyright">
-        <p>© 2021 GPT-3. All rights reserved.</p>
+        <p>© 2024 Valle Del Volcan. All rights reserved.</p>
       </div>
     </div>
   );
