@@ -12,10 +12,7 @@ const Header = () => {
           Purificadora Valle Del Volcan
         </h1>
         <p style={{fontSize:'20px', color:'white', fontWeight:"700"}}>
-          Yet bed any for travelling assistance indulgence unpleasing. Not
-          thoughts all exercise blessing. Indulgence way everything joy
-          alteration boisterous the attachment. Party we years to order allow
-          asked of.
+          Pouring purity into every drop: Join Valle Del Volcan in unlocking the true essence of clean, revitalizing water!
         </p>
         <div className="gpt3__header-content__input">
           <Button disableRipple variant="contained" color="primary" style={{fontSize:'20px', position:'static'}}>
