@@ -11,7 +11,6 @@ const Blog = () => {
         <h1 className="gradient__text">
           Get to know our catalog
         </h1>
-        
       </div>
       <div className="gpt3__blog-container">
         <div className="gpt3__blog-container_groupA">

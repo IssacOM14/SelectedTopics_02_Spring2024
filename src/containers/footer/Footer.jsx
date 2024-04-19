@@ -13,7 +13,7 @@ const Footer = () => {
         <h1 className="gradient__text">
           Doubts about who attends you?
         </h1>
-        <img marg width={450} height={450} src={wat} alt="waterman" />
+        <img className="gpt3__footer-img" src={wat} alt="waterman" />
       </div>
       <div className="gpt3__footer-btn">
         <p>Meet Our Team</p>
