@@ -14,7 +14,7 @@ const featuresData = [
     text: "Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.",
   },
   {
-    title: "Message or am nothing",
+    title: "AAAAAAA",
     text: "Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.",
   },
   {
