@@ -54,7 +54,7 @@ const Features = () => {
           Learn about our purification process:
         </h1>
         <Waypoint onEnter={handleVideoPress} onLeave={handleVideoPress}>
-          <video ref={videoRef} className="gpt3__features-video" onClick={handleVideoPress} src={"https://files.catbox.moe/luo5g9.mp4"}></video>
+          <video ref={videoRef} className="gpt3__features-video" onClick={handleVideoPress} src={"https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4"}></video>
         </Waypoint>
       </div>
       <div className="gpt3__features-container">
