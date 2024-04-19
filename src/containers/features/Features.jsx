@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Feature } from "../../components";
 import "./features.css";
+import { Waypoint } from 'react-waypoint';
+
 
 const featuresData = [
   {
@@ -19,17 +21,41 @@ const featuresData = [
     title: "Really boy law county",
     text: "Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush.",
   },
+  {
+    title: "Really boy law county",
+    text: "Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush.",
+  },
+  {
+    title: "Really boy law county",
+    text: "Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush.",
+  },
 ];
 
 const Features = () => {
+
+  const [playing, setPlaying] = useState(false);
+  const videoRef = useRef(null);
+
+  const handleVideoPress = () => {
+    if (playing) {
+      videoRef.current.pause();
+      setPlaying(false);
+    } else {
+      videoRef.current.play();
+      setPlaying(true);
+    }
+  };
+
   return (
     <section id="features">
       <div className="gpt3__features section__padding">
       <div className="gpt3__features-heading">
         <h1 className="gradient__text">
-          Learn about our purification process used to offer the best quality at the best price.
+          Learn about our purification process:
         </h1>
-        <p>Request Early Access to Get Started</p>
+        <Waypoint onEnter={handleVideoPress} onLeave={handleVideoPress}>
+          <video ref={videoRef} className="gpt3__features-video" onClick={handleVideoPress} src={"https://files.catbox.moe/luo5g9.mp4"}></video>
+        </Waypoint>
       </div>
       <div className="gpt3__features-container">
         {featuresData.map((item, index) => (
