@@ -11,7 +11,7 @@ const Footer = () => {
     <div className="gpt3__footer section__padding">
       <div className="gpt3__footer-heading">
         <h1 className="gradient__text">
-          Do you have any questions about our products?
+          Do you have any questions or complaints about our products?
         </h1>
       </div>
       <div className="gpt3__footer-btn">
@@ -40,10 +40,10 @@ const Footer = () => {
           <p>Cam. Real a San Andrés 1230, X72810 San Andrés Cholula, Pue.</p>
           <p>(221) 530-4660</p>
           <p>support@vallevolcan.mx</p>
-          <ul class= "icon">
-          <p><FacebookIcon></FacebookIcon> </p>
-          <p><InstagramIcon></InstagramIcon> </p>
-          <p><XIcon></XIcon> </p>
+          <ul className= "icon">
+          <p><FacebookIcon style={{ fontSize: '2rem', marginRight:'10px' }}></FacebookIcon> </p>
+          <p><InstagramIcon style={{ fontSize: '2rem', marginRight:'10px' }}></InstagramIcon> </p>
+          <p><XIcon style={{ fontSize: '2rem', marginRight:'10px' }}></XIcon> </p>
           </ul>
           
 

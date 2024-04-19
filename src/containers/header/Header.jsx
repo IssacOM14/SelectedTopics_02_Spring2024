@@ -18,7 +18,7 @@ const Header = () => {
           asked of.
         </p>
         <div className="gpt3__header-content__input">
-          <Button variant="contained" color="primary" style={{fontSize:'20px'}}>
+          <Button disableRipple variant="contained" color="primary" style={{fontSize:'20px', position:'static'}}>
             BUY NOW
           </Button>
         </div>

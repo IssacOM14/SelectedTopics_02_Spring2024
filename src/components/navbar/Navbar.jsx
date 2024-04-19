@@ -3,6 +3,7 @@ import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import logo from "../../assets/logo mejorado.png";
 import "./navbar.css";
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 //import HomeIcon from '@mui/icons-material/Home';
 
 // BEM --> Block Element Modifier
@@ -39,8 +40,8 @@ const Navbar = () => {
         </div>
       </div>
       <div className="gpt3__navbar-sign">
-        <p style={{ color: '#449bff'}}>Sign in</p>
-        <ShoppingCartIcon style={{ color: '#449bff'}}/>
+        <AccountCircleIcon style={{ fontSize:'28px', color: '#449bff', marginRight:'15px'}}/>
+        <ShoppingCartIcon style={{ fontSize:'28px', color: '#449bff'}}/>
       </div>
       <div className="gpt3__navbar-menu">
         {toggleMenu ? (
@@ -61,8 +62,8 @@ const Navbar = () => {
             <div className="gpt3__navbar-menu_container-links">
               <Menu />
               <div className="gpt3__navbar-menu_container-links-sign">
-                <p>Sign in</p>
-                <ShoppingCartIcon style={{ color: '#449bff'}}/>
+                <AccountCircleIcon style={{ fontSize:'25px', color: '#449bff', marginRight:'15px'}}/>
+                <ShoppingCartIcon style={{ fontSize:'25px', color: '#449bff'}}/>
               </div>
             </div>
           </div>
