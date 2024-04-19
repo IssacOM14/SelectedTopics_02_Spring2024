@@ -69,6 +69,7 @@
 @media screen and (max-width: 990px) {
   .gpt3__possibility {
     flex-direction: column;
+    padding-top: 25%;
   }
   .gpt3__possibility-image {
     margin: 1rem 0;
