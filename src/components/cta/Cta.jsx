@@ -5,11 +5,11 @@ const Cta = () => {
   return (
     <div className="gpt3__cta">
       <div className="gpt3__cta-content">
-        <p>Request Early Access to Get Started</p>
-        <h3>Register today & start exploring the endless possiblities.</h3>
+        <p>* This promotion is subject to changes</p>
+        <h3>Register today for exclusive benefits and discounts!</h3>
       </div>
       <div className="gpt3__cta-btn">
-        <button type="button">Get Started</button>
+        <button type="button">Sign Up</button>
       </div>
     </div>
   );

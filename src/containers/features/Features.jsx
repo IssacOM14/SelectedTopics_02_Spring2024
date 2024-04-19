@@ -6,28 +6,34 @@ import { Waypoint } from 'react-waypoint';
 
 const featuresData = [
   {
-    title: "Test 02",
-    text: "From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.",
+    title: "1. Water Collection",
+    title2: "2. Raw water",
+    text: "Water collection refers to the initial stage where water is gathered from its source. Raw water is the untreated water collected from its natural source.",
   },
   {
-    title: "Become the tended active",
-    text: "Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.",
+    title: "3. Hydropneumatic",
+    title2: "4. Sand and activated carbon filter",
+    text: "Hydropneumatic refers to a system that utilizes both hydraulic and pneumatic principles. Sand and activated carbon filters are a specific type of filtration system used to remove impurities and contaminants.",
   },
   {
-    title: "Message or am nothing",
-    text: "Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.",
+    title: "5. Water softener",
+    title2: "6. Electrolysis",
+    text: "Water softening is a process used to reduce the hardness of water by removing minerals. Electrolysis can be used for several purposes, including disinfection and the removal of specific contaminants.",
   },
   {
-    title: "Really boy law county",
+    title: "7. Purified water",
+    title2: "8. Ozonification",
+    text: "Purified water refers to water that has undergone thorough treatment to remove impurities and contaminants. Ozonation, is a water treatment process to disinfect and oxidize water.",
+  },
+  {
+    title: "9. Ultraviolet light",
+    title2: "10. Washing",
     text: "Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush.",
   },
   {
-    title: "Really boy law county",
-    text: "Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush.",
-  },
-  {
-    title: "Really boy law county",
-    text: "Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush.",
+    title: "11. Filling",
+    title2: "12. Delivery",
+    text: "These final steps are to fill the containers with purified water and deliver them",
   },
 ];
 
@@ -54,13 +60,14 @@ const Features = () => {
           Learn about our purification process:
         </h1>
         <Waypoint onEnter={handleVideoPress} onLeave={handleVideoPress}>
-          <video ref={videoRef} className="gpt3__features-video" onClick={handleVideoPress} src={"https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4"}></video>
+          <video ref={videoRef} className="gpt3__features-video" onClick={handleVideoPress} src={"https://files.catbox.moe/2o6qwj.mp4"}></video>
         </Waypoint>
       </div>
       <div className="gpt3__features-container">
         {featuresData.map((item, index) => (
           <Feature
             title={item.title}
+            title2={item.title2}
             text={item.text}
             key={item.title + index}
           />
