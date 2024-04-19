@@ -3,15 +3,14 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  padding-top: 10%;
+  padding-top: 8%;
   margin-bottom: -90px;
   
 }
 .gpt3__features-video{
   height: 350px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
 }
 .gpt3__features-heading {
   display: flex;
@@ -53,10 +52,20 @@
   .gpt3__features-heading {
     margin: 0 0 2rem 0;
   }
+  .gpt3__features-video{
+    height: 380px;
+    display: flex;
+    justify-content: left;
+  }
 }
 @media screen and (max-width: 550px) {
   .gpt3__features-heading h1 {
     font-size: 28px;
     line-height: 38px;
+  }
+  .gpt3__features-video{
+    height: 205px;
+    display: flex;
+    justify-content: left;
   }
 }
