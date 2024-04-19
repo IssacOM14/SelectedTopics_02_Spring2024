@@ -16,33 +16,37 @@ const Blog = () => {
           <Article
             imageUrl={blog01}
             date="Sep 26, 2021"
-            title="20, 19 or 11 Liter water carafes"
+            title="20Lt water carafe"
           />
         </div>
         <div className="gpt3__blog-container_groupB">
           <Article
             imageUrl={blog02}
             date="Sep 26, 2021"
-            title="Boston Bottles"
+            title="5Lt water carafe"
             
           />
           <Article
             imageUrl={blog03}
             date="Sep 26, 2021"
-            title="Ring Bottles"
+            title="Boston Bottles"
           />
           <Article
-            imageUrl={blog03}
+            imageUrl={blog04}
             date="Sep 26, 2021"
             title="Ring Bottles"
           />
           <Article
-            imageUrl={blog03}
+            imageUrl={blog05}
             date="Sep 26, 2021"
-            title="Ring Bottles"
+            title="Personalized label bottles"
           />
         </div>
       </div>
+      <div className="gpt3__blog-btn">
+        <button type="button">See more</button>
+      </div>
+      
     </div>
   );
 };

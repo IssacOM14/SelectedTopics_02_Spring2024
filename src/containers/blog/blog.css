@@ -16,6 +16,27 @@
   line-height: 75px;
   letter-spacing: -0.04em;
 }
+.gpt3__blog-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+  padding-top: 30px;
+}
+.gpt3__blog-btn button {
+  background: #449bff;
+  border-radius: 40px;
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 50px;
+  color: #ffffff;
+  padding: 0.1rem 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 15%;
+}
 
 .gpt3__blog-container {
   display: flex;
