@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import gpt3Logo from "../../assets/logo.svg";
+import wat from "../../assets/man_wat_v1.png";
 import logoValle from "../../assets/logo mejorado.png";
 import FacebookIcon from '@mui/icons-material/Facebook';
 import XIcon from '@mui/icons-material/X';
@@ -11,11 +11,12 @@ const Footer = () => {
     <div className="gpt3__footer section__padding">
       <div className="gpt3__footer-heading">
         <h1 className="gradient__text">
-          Do you have any questions or complaints about our products?
+          Doubts about who attends you?
         </h1>
+        <img marg width={450} height={450} src={wat} alt="waterman" />
       </div>
       <div className="gpt3__footer-btn">
-        <p>Contact Our Customer Service</p>
+        <p>Meet Our Team</p>
       </div>
       <div className="gpt3__footer-links">
         <div className="gpt3__footer-links_logo">

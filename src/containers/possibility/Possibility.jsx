@@ -4,6 +4,7 @@ import "./possibility.css";
 import FacebookIcon from '@mui/icons-material/Facebook';
 import XIcon from '@mui/icons-material/X';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const Possibility = () => {
   return (
@@ -28,6 +29,7 @@ const Possibility = () => {
           <p><FacebookIcon style={{ fontSize: '2rem', marginRight:'10px', color:"white" }}></FacebookIcon> </p>
           <p><InstagramIcon style={{ fontSize: '2rem', marginRight:'10px', color:"white" }}></InstagramIcon> </p>
           <p><XIcon style={{ fontSize: '2rem', marginRight:'10px', color:"white" }}></XIcon> </p>
+          <p><WhatsAppIcon style={{ fontSize: '2rem', marginRight:'10px', color:"white" }}></WhatsAppIcon> </p>
         </ul>
 
         <h1 className="gradient__text">

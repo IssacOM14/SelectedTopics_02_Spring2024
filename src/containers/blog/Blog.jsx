@@ -1,7 +1,8 @@
 import React from "react";
 import { Article } from "../../components";
-import { blog01, blog02, blog03, blog04, blog05 } from "./imports";
+import { product_img_cat, better_ag, botella_an, botella_bo, botella_cu} from "./imports";
 import "./blog.css";
+import SearchIcon from '@mui/icons-material/Search';
 
 const Blog = () => {
   return (
@@ -10,36 +11,26 @@ const Blog = () => {
         <h1 className="gradient__text">
           Get to know our catalog
         </h1>
+        
       </div>
       <div className="gpt3__blog-container">
         <div className="gpt3__blog-container_groupA">
           <Article
-            imageUrl={blog01}
-            date="Sep 26, 2021"
+            imageUrl={product_img_cat}
+            date="$15.0 MXN ea."
             title="20Lt water carafe"
           />
         </div>
         <div className="gpt3__blog-container_groupB">
           <Article
-            imageUrl={blog02}
-            date="Sep 26, 2021"
-            title="5Lt water carafe"
-            
-          />
-          <Article
-            imageUrl={blog03}
-            date="Sep 26, 2021"
-            title="Boston Bottles"
-          />
-          <Article
-            imageUrl={blog04}
-            date="Sep 26, 2021"
+            imageUrl={botella_an}
+            date="$7.50 MXN ea."
             title="Ring Bottles"
           />
           <Article
-            imageUrl={blog05}
-            date="Sep 26, 2021"
-            title="Personalized label bottles"
+            imageUrl={botella_bo}
+            date="$11.0 MXN ea."
+            title="Boston Bottles"
           />
         </div>
       </div>
