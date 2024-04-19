@@ -1,7 +1,7 @@
 import React from "react";
 import "./feature.css";
 
-const Feature = ({ title, text }) => {
+const Feature = ({ title, title2, text }) => {
   return (
     <div className="gpt3__features-container__feature">
       
@@ -12,7 +12,7 @@ const Feature = ({ title, text }) => {
       
       <div className="gpt3__features-container__feature-title">
       <div />
-          <h1>{title}</h1>
+          <h1>{title2}</h1>
       </div>
         
       <div className="gpt3__features-container__feature-text">
